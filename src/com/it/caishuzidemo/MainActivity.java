@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 			Toast.makeText(this, "第一个数必须小于第二个数", 1).show();
 		}
 		rand = new Random().nextInt(num2 - num1) + num1;
-		System.out.println(rand);
+		System.out.println(rand);//fds
 	}
 
 	/**
